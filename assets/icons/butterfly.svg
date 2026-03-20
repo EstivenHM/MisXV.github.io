@@ -1,0 +1,22 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <defs>
+    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="50%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+  </defs>
+  <path
+    d="M100 100 C72 62 32 64 20 95 C8 125 34 152 82 135 C92 131 98 118 100 100 Z"
+    fill="url(#wing)"
+  />
+  <path
+    d="M100 100 C128 62 168 64 180 95 C192 125 166 152 118 135 C108 131 102 118 100 100 Z"
+    fill="url(#wing)"
+  />
+  <path
+    d="M100 100 C94 122 94 148 100 168 C106 148 106 122 100 100 Z"
+    fill="#5b21b6"
+  />
+  <circle cx="100" cy="90" r="6" fill="#2a0a4f" />
+</svg>
