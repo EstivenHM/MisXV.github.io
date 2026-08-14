@@ -1,213 +1,224 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gladys Amalia · Mis XV Años</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Great+Vibes&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="public/css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gladys Amalia · Mis XV Años</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Great+Vibes&family=Jost:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="public/css/styles.css">
 </head>
+
 <body>
 
-<div class="stars" id="stars"></div>
-<div class="sparkles"></div>
+  <div class="stars" id="stars"></div>
+  <div class="sparkles"></div>
 
-<div class="content">
+  <div class="content">
 
-  <!-- Navegación -->
-  <nav>
-    <a href="#inicio" class="nav-logo">Gladys Amalia</a>
-    <button class="burger" id="burger" aria-label="Menú">
-      <span></span><span></span><span></span>
-    </button>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#fecha">Fecha y Lugar</a></li>
-      <li><a href="#vestimenta">Vestimenta</a></li>
-      <li><a href="#acciones">Acciones</a></li>
-    </ul>
-  </nav>
+    <!-- Navegación -->
+    <nav>
+      <a href="#inicio" class="nav-logo">Gladys Amalia</a>
+      <button class="burger" id="burger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#fecha">Fecha y Lugar</a></li>
+        <li><a href="#vestimenta">Vestimenta</a></li>
+        <li><a href="#acciones">Acciones</a></li>
+      </ul>
+    </nav>
 
-  <!-- Héroe / Invitación -->
-  <header class="hero" id="inicio">
-    <div class="marco">
-      <div class="ornamento">���</div>
-      <p class="invitacion-titulo">Con mucho cariño te invitamos a</p>
-      <h1 class="nombre">Gladys Amalia Roa Munguía</h1>
-      <div class="edad">mis XV años</div>
-      <p class="texto-invitacion">
-        Acompáñame a celebrar una noche mágica llena de luces, música y alegría.
-        Será un honor contar con tu presencia en este día tan especial para mí.
+    <!-- Héroe / Invitación -->
+    <header class="hero" id="inicio">
+      <div class="marco">
+        <div class="ornamento"><i class="fa-solid fa-crown"></i></div>
+        <p class="invitacion-titulo">Con mucho cariño te invitamos a</p>
+        <h1 class="nombre">Gladys Amalia Roa Munguía</h1>
+        <div class="edad">mis XV años</div>
+        <p class="texto-invitacion">
+          Acompáñame a celebrar una noche mágica llena de luces, música y alegría.
+          Será un honor contar con tu presencia en este día tan especial para mí.
+        </p>
+        <p class="frase">"Cada sueño comienza con una invitación"</p>
+      </div>
+      <a href="#fecha" class="boton-scroll">Descubre los detalles &nbsp;<i class="fa-solid fa-chevron-down"></i></a>
+    </header>
+
+    <!-- Fecha y Lugar -->
+    <section id="fecha">
+      <div class="seccion-titulo">
+        <h2>Fecha y Lugar</h2>
+        <p>Guarda la fecha</p>
+      </div>
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="icono"><i class="fa-solid fa-calendar-days"></i></div>
+          <h3>Fecha</h3>
+          <p class="pendiente">Próximamente</p>
+        </div>
+        <div class="info-card">
+          <div class="icono"><i class="fa-solid fa-clock"></i></div>
+          <h3>Hora</h3>
+          <p class="pendiente">Por confirmar</p>
+        </div>
+        <div class="info-card">
+          <div class="icono"><i class="fa-solid fa-location-dot"></i></div>
+          <h3>Lugar</h3>
+          <p class="pendiente">Por confirmar</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Código de vestimenta -->
+    <section class="codigo" id="vestimenta">
+      <div class="seccion-titulo">
+        <h2>Código de Vestimenta</h2>
+        <p>Viste para brillar</p>
+      </div>
+      <div class="vestimenta">
+        <div class="vestimenta-item">
+          <div class="caja"><i class="fa-solid fa-vest"></i></div>
+          <div class="etiqueta">Elegante</div>
+          <small>Vestimenta formal de gala</small>
+        </div>
+        <div class="vestimenta-item">
+          <div class="caja"><i class="fa-solid fa-palette"></i></div>
+          <div class="etiqueta">Color morado</div>
+          <small>Los tonos morados son bienvenidos</small>
+        </div>
+        <div class="vestimenta-item">
+          <div class="caja"><i class="fa-solid fa-user-tie"></i></div>
+          <div class="etiqueta">Caballeros</div>
+          <small>Traje formal o smoking</small>
+        </div>
+      </div>
+      <p class="nota-codigo"><i class="fa-solid fa-camera"></i> Etiqueta: etiqueta rigurosa — el evento será fotografiado <i class="fa-solid fa-camera"></i></p>
+    </section>
+
+    <!-- Acciones del evento -->
+    <section id="acciones">
+      <div class="seccion-titulo">
+        <h2>Opciones del Evento</h2>
+        <p>Todo lo que necesitas saber</p>
+      </div>
+      <div class="acciones">
+        <a href="#" class="accion-card" data-modal="confirmar">
+          <div class="icono"><i class="fa-solid fa-envelope-open-text"></i></div>
+          <h3>Confirmar Asistencia</h3>
+          <p>Confirma o rechaza tu asistencia para la celebración.</p>
+          <div class="flecha">→</div>
+        </a>
+        <a href="#" class="accion-card" data-modal="fotos">
+          <div class="icono"><i class="fa-solid fa-camera-retro"></i></div>
+          <h3>Subir Fotos</h3>
+          <p>Comparte tus fotos de la fiesta en nuestro álbum.</p>
+          <div class="flecha">→</div>
+        </a>
+        <a href="#" class="accion-card" data-modal="invitados">
+          <div class="icono"><i class="fa-solid fa-clipboard-user"></i></div>
+          <h3>Lista de Invitados</h3>
+          <p>Consulta quién ya confirmó su asistencia.</p>
+          <div class="flecha">→</div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="aviso">
+        <i class="fa-solid fa-ticket" style="margin-right: 6px;"></i> Esta invitación es <strong>única y personal</strong>. Solo es válida para las personas
+        incluidas en la <strong>lista de invitados</strong>. Junto con esta invitación se entrega una
+        <strong>pulsera</strong> personalizada, la cual es <strong>necesaria para el ingreso</strong> al evento.
+        Por favor no la compartas.
+      </div>
+      <div class="footer-nombre">Gladys Amalia</div>
+      <div class="footer-credito">Mis XV años · Una noche inolvidable</div>
+    </footer>
+
+  </div>
+
+  <!-- Modal: Confirmar asistencia -->
+  <div class="modal" id="modal-confirmar">
+    <div class="modal-contenido">
+      <button class="modal-cerrar" data-cerrar>&times;</button>
+      <h2 class="modal-titulo">Confirmar Asistencia</h2>
+      <p class="modal-sub">Estaremos felices de verte</p>
+
+      <div id="formConfirmar">
+        <div class="botones-confirmacion">
+          <button type="button" class="btn btn-si" id="btnSi" onclick="elegirRespuesta('si')">Sí, asistiré</button>
+          <button type="button" class="btn btn-no" id="btnNo" onclick="elegirRespuesta('no')">No podré ir</button>
+        </div>
+        <div class="form-grupo">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" placeholder="Escribe tu nombre tal como aparece en la invitación">
+        </div>
+        <div class="form-grupo">
+          <label for="mensaje">Mensaje (opcional)</label>
+          <textarea id="mensaje" placeholder="Déjale una felicitación a Gladys Amalia..."></textarea>
+        </div>
+        <button type="button" class="btn btn-enviar" onclick="enviarConfirmacion()">Enviar respuesta</button>
+      </div>
+
+      <div class="mensaje-confirmacion" id="mensajeOk"><i class="fa-solid fa-circle-check"></i> ¡Gracias por confirmar! Nos vemos en la fiesta.</div>
+      <div class="mensaje-confirmacion" id="mensajeNo">Te vamos a extrañar. ¡Gracias por avisarnos!</div>
+    </div>
+  </div>
+
+  <!-- Modal: Subir fotos -->
+  <div class="modal" id="modal-fotos">
+    <div class="modal-contenido">
+      <button class="modal-cerrar" data-cerrar>&times;</button>
+      <h2 class="modal-titulo">Subir Fotos</h2>
+      <p class="modal-sub">Comparte tus recuerdos</p>
+      <p style="text-align:center; color:var(--lavanda); font-weight:300; line-height:1.7;">
+        Pronto estará disponible el álbum para subir tus fotos del evento.<br>
+        Mientras tanto, guarda este enlace para usarlo después de la fiesta:
       </p>
-      <p class="frase">"Cada sueño comienza con una invitación"</p>
-    </div>
-    <a href="#fecha" class="boton-scroll">Descubre los detalles &nbsp;���</a>
-  </header>
-
-  <!-- Fecha y Lugar -->
-  <section id="fecha">
-    <div class="seccion-titulo">
-      <h2>Fecha y Lugar</h2>
-      <p>Guarda la fecha</p>
-    </div>
-    <div class="info-grid">
-      <div class="info-card">
-        <div class="icono">�������</div>
-        <h3>Fecha</h3>
-        <p class="pendiente">Próximamente</p>
+      <div style="text-align:center; margin-top:22px;">
+        <a href="#" onclick="avisoFotos(event)"
+          style="display:inline-block; padding:14px 30px; border-radius:12px; background:linear-gradient(120deg, var(--morado), var(--rosa)); color:#fff; text-decoration:none; font-weight:500; letter-spacing:.06em; text-transform:uppercase; font-size:.9rem;"><i class="fa-solid fa-cloud-arrow-up" style="margin-right:8px;"></i>
+          Ir al álbum de fotos</a>
       </div>
-      <div class="info-card">
-        <div class="icono">����</div>
-        <h3>Hora</h3>
-        <p class="pendiente">Por confirmar</p>
-      </div>
-      <div class="info-card">
-        <div class="icono">����</div>
-        <h3>Lugar</h3>
-        <p class="pendiente">Por confirmar</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Código de vestimenta -->
-  <section class="codigo" id="vestimenta">
-    <div class="seccion-titulo">
-      <h2>Código de Vestimenta</h2>
-      <p>Viste para brillar</p>
-    </div>
-    <div class="vestimenta">
-      <div class="vestimenta-item">
-        <div class="caja">����</div>
-        <div class="etiqueta">Elegante</div>
-        <small>Vestimenta formal de gala</small>
-      </div>
-      <div class="vestimenta-item">
-        <div class="caja">����</div>
-        <div class="etiqueta">Color morado</div>
-        <small>Los tonos morados son bienvenidos</small>
-      </div>
-      <div class="vestimenta-item">
-        <div class="caja">����</div>
-        <div class="etiqueta">Caballeros</div>
-        <small>Traje formal o smoking</small>
-      </div>
-    </div>
-    <p class="nota-codigo">��� Etiqueta: etiqueta rigurosa — el evento será fotografiado ��</p>
-  </section>
-
-  <!-- Acciones del evento -->
-  <section id="acciones">
-    <div class="seccion-titulo">
-      <h2>Opciones del Evento</h2>
-      <p>Todo lo que necesitas saber</p>
-    </div>
-    <div class="acciones">
-      <a href="#" class="accion-card" data-modal="confirmar">
-        <div class="icono">����</div>
-        <h3>Confirmar Asistencia</h3>
-        <p>Confirma o rechaza tu asistencia para la celebración.</p>
-        <div class="flecha">→</div>
-      </a>
-      <a href="#" class="accion-card" data-modal="fotos">
-        <div class="icono">����</div>
-        <h3>Subir Fotos</h3>
-        <p>Comparte tus fotos de la fiesta en nuestro álbum.</p>
-        <div class="flecha">→</div>
-      </a>
-      <a href="#" class="accion-card" data-modal="invitados">
-        <div class="icono">����</div>
-        <h3>Lista de Invitados</h3>
-        <p>Consulta quién ya confirmó su asistencia.</p>
-        <div class="flecha">→</div>
-      </a>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <div class="aviso">
-      ��� Esta invitación es <strong>única y personal</strong>. Solo es válida para las personas
-      incluidas en la <strong>lista de invitados</strong>. Junto con esta invitación se entrega una
-      <strong>pulsera</strong> personalizada, la cual es <strong>necesaria para el ingreso</strong> al evento.
-      Por favor no la compartas.
-    </div>
-    <div class="footer-nombre">Gladys Amalia</div>
-    <div class="footer-credito">Mis XV años · Una noche inolvidable</div>
-  </footer>
-
-</div>
-
-<!-- Modal: Confirmar asistencia -->
-<div class="modal" id="modal-confirmar">
-  <div class="modal-contenido">
-    <button class="modal-cerrar" data-cerrar>&times;</button>
-    <h2 class="modal-titulo">Confirmar Asistencia</h2>
-    <p class="modal-sub">Estaremos felices de verte</p>
-
-    <div id="formConfirmar">
-      <div class="botones-confirmacion">
-        <button type="button" class="btn btn-si" id="btnSi" onclick="elegirRespuesta('si')">Sí, asistiré</button>
-        <button type="button" class="btn btn-no" id="btnNo" onclick="elegirRespuesta('no')">No podré ir</button>
-      </div>
-      <div class="form-grupo">
-        <label for="nombre">Nombre completo</label>
-        <input type="text" id="nombre" placeholder="Escribe tu nombre tal como aparece en la invitación">
-      </div>
-      <div class="form-grupo">
-        <label for="mensaje">Mensaje (opcional)</label>
-        <textarea id="mensaje" placeholder="Déjale una felicitación a Gladys Amalia..."></textarea>
-      </div>
-      <button type="button" class="btn btn-enviar" onclick="enviarConfirmacion()">Enviar respuesta</button>
-    </div>
-
-    <div class="mensaje-confirmacion" id="mensajeOk">���� ¡Gracias por confirmar! Nos vemos en la fiesta.</div>
-    <div class="mensaje-confirmacion" id="mensajeNo">Te vamos a extrañar. ¡Gracias por avisarnos!</div>
-  </div>
-</div>
-
-<!-- Modal: Subir fotos -->
-<div class="modal" id="modal-fotos">
-  <div class="modal-contenido">
-    <button class="modal-cerrar" data-cerrar>&times;</button>
-    <h2 class="modal-titulo">Subir Fotos</h2>
-    <p class="modal-sub">Comparte tus recuerdos</p>
-    <p style="text-align:center; color:var(--lavanda); font-weight:300; line-height:1.7;">
-      Pronto estará disponible el álbum para subir tus fotos del evento.<br>
-      Mientras tanto, guarda este enlace para usarlo después de la fiesta:
-    </p>
-    <div style="text-align:center; margin-top:22px;">
-      <a href="#" onclick="avisoFotos(event)" style="display:inline-block; padding:14px 30px; border-radius:12px; background:linear-gradient(120deg, var(--morado), var(--rosa)); color:#fff; text-decoration:none; font-weight:500; letter-spacing:.06em; text-transform:uppercase; font-size:.9rem;">���� Ir al álbum de fotos</a>
-    </div>
-    <p style="text-align:center; margin-top:20px; color:var(--dorado); font-style:italic; font-family:'Cormorant Garamond',serif; font-size:1.1rem;">"Cada foto guarda un momento mágico"</p>
-  </div>
-</div>
-
-<!-- Modal: Lista de invitados -->
-<div class="modal" id="modal-invitados">
-  <div class="modal-contenido">
-    <button class="modal-cerrar" data-cerrar>&times;</button>
-    <h2 class="modal-titulo">Lista de Invitados</h2>
-    <p class="modal-sub">Estado de asistencia</p>
-    <input type="text" class="buscador" id="buscadorInvitados" placeholder="Buscar invitado..." oninput="filtrarInvitados()">
-    <table class="tabla-invitados">
-      <thead>
-        <tr>
-          <th>Invitado</th>
-          <th>Estado</th>
-        </tr>
-      </thead>
-      <tbody id="cuerpoInvitados"></tbody>
-    </table>
-    <div class="leyenda">
-      <span><span class="badge confirmado">Confirmado</span> Asistirá</span>
-      <span><span class="badge pendiente">Pendiente</span> Sin responder</span>
-      <span><span class="badge rechazado">Rechazado</span> No asistirá</span>
+      <p
+        style="text-align:center; margin-top:20px; color:var(--dorado); font-style:italic; font-family:'Cormorant Garamond',serif; font-size:1.1rem;">
+        "Cada foto guarda un momento mágico"</p>
     </div>
   </div>
-</div>
 
-<script src="public/js/app.js"></script>
+  <!-- Modal: Lista de invitados -->
+  <div class="modal" id="modal-invitados">
+    <div class="modal-contenido">
+      <button class="modal-cerrar" data-cerrar>&times;</button>
+      <h2 class="modal-titulo">Lista de Invitados</h2>
+      <p class="modal-sub">Estado de asistencia</p>
+      <input type="text" class="buscador" id="buscadorInvitados" placeholder="Buscar invitado..."
+        oninput="filtrarInvitados()">
+      <table class="tabla-invitados">
+        <thead>
+          <tr>
+            <th>Invitado</th>
+            <th>Estado</th>
+          </tr>
+        </thead>
+        <tbody id="cuerpoInvitados"></tbody>
+      </table>
+      <div class="leyenda">
+        <span><span class="badge confirmado">Confirmado</span> Asistirá</span>
+        <span><span class="badge pendiente">Pendiente</span> Sin responder</span>
+        <span><span class="badge rechazado">Rechazado</span> No asistirá</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="public/js/app.js"></script>
 </body>
+
 </html>
